@@ -1,0 +1,57 @@
+{
+  "note": "Answer key for tests/documentation only. The engine never reads this file.",
+  "reporting_month": "2026-11",
+  "timing_difference": [
+    {
+      "transaction_id": "TXN-202611-0037",
+      "transaction_date": "2026-11-27",
+      "settlement_date": "2026-12-01"
+    },
+    {
+      "transaction_id": "TXN-202611-0038",
+      "transaction_date": "2026-11-30",
+      "settlement_date": "2026-12-02"
+    }
+  ],
+  "rounding_difference": [
+    {
+      "transaction_id": "TXN-202611-0012",
+      "platform_amount": "1250.005",
+      "bank_amount": "1250.01"
+    },
+    {
+      "transaction_id": "TXN-202611-0020",
+      "platform_amount": "899.995",
+      "bank_amount": "900.00"
+    },
+    {
+      "transaction_id": "TXN-202611-0022",
+      "platform_amount": "2340.505",
+      "bank_amount": "2340.51"
+    },
+    {
+      "transaction_id": "TXN-202611-0028",
+      "platform_amount": "415.755",
+      "bank_amount": "415.76"
+    }
+  ],
+  "duplicate_settlement": {
+    "transaction_id": "TXN-202611-0010",
+    "original_settlement_id": "STL-202611-0011",
+    "duplicate_settlement_id": "STL-202611-0014"
+  },
+  "orphan_refund": {
+    "transaction_id": "RFD-202611-0002",
+    "missing_original_transaction_id": "TXN-202610-0412"
+  },
+  "valid_refund": {
+    "transaction_id": "RFD-202611-0001",
+    "original_transaction_id": "TXN-202611-0001"
+  },
+  "amount_mismatch": {
+    "transaction_id": "TXN-202611-0021"
+  },
+  "missing_settlement": {
+    "transaction_id": "TXN-202611-0026"
+  }
+}
